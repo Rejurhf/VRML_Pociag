@@ -2505,1215 +2505,1007 @@ position 100.000000 40 40
 orientation 1 0 0 -0.785
 description "nr_20"}
 Transform {
-translation 25.000000 0 17.000000
+translation 77.000000 0 -21.000000
 children [
 Inline { url "model1.wrl"}]}
 Transform {
-translation -82.000000 0 12.000000
+translation -54.000000 0 -15.000000
 children [
 Inline { url "model1.wrl"}]}
 Transform {
-translation 89.000000 0 21.000000
+translation -18.000000 0 -10.000000
 children [
 Inline { url "model1.wrl"}]}
-Transform {
-translation -44.000000 0 10.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 92.000000 0 -16.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 77.000000 0 24.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -2.000000 0 -8.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -43.000000 0 17.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 15.000000 0 22.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 99.000000 0 10.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 62.000000 0 -8.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -24.000000 0 -6.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 45.000000 0 16.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -7.000000 0 -24.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -23.000000 0 17.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 87.000000 0 6.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -5.000000 0 -24.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 43.000000 0 13.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 82.000000 0 20.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -19.000000 0 -19.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -3.000000 0 -14.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -31.000000 0 10.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 97.000000 0 -7.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -67.000000 0 12.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 94.000000 0 10.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 91.000000 0 9.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -45.000000 0 -16.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 14.000000 0 19.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -43.000000 0 22.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 98.000000 0 -23.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -44.000000 0 13.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 57.000000 0 -22.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -29.000000 0 11.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -63.000000 0 24.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -86.000000 0 11.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 47.000000 0 -14.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 9.000000 0 -10.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -46.000000 0 16.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -13.000000 0 -6.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -25.000000 0 24.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 22.000000 0 12.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -62.000000 0 9.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -1.000000 0 20.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 55.000000 0 9.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -2.000000 0 15.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 58.000000 0 22.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 22.000000 0 -23.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 89.000000 0 17.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 99.000000 0 24.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -62.000000 0 -12.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 40.000000 0 14.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -51.000000 0 -13.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -64.000000 0 -24.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -98.000000 0 11.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 31.000000 0 -9.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -34.000000 0 -19.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 50.000000 0 -13.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 92.000000 0 -23.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 5.000000 0 14.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -1.000000 0 -5.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -24.000000 0 5.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 40.000000 0 6.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -52.000000 0 23.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -29.000000 0 -17.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 51.000000 0 8.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 2.000000 0 14.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -78.000000 0 -16.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -32.000000 0 -8.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 99.000000 0 -13.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 50.000000 0 -24.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -1.000000 0 -12.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -82.000000 0 -12.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -51.000000 0 20.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 40.000000 0 24.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 97.000000 0 15.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -30.000000 0 -9.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 18.000000 0 11.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 19.000000 0 12.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 57.000000 0 -11.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 37.000000 0 13.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -51.000000 0 -5.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -67.000000 0 -15.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 39.000000 0 5.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 54.000000 0 5.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -18.000000 0 -22.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 56.000000 0 -12.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 40.000000 0 23.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -13.000000 0 22.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -15.000000 0 -19.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -4.000000 0 9.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -33.000000 0 10.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -75.000000 0 16.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 10.000000 0 -15.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 71.000000 0 -9.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 83.000000 0 -23.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 46.000000 0 20.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -35.000000 0 -12.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -90.000000 0 -19.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 55.000000 0 16.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation 46.000000 0 -13.000000
-children [
-Inline { url "model1.wrl"}]}
-Transform {
-translation -63.000000 0 -20.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -19.000000 0 17.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -5.000000 0 -7.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 29.000000 0 -11.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 23.000000 0 14.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -26.000000 0 12.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -96.000000 0 -17.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -67.000000 0 20.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -70.000000 0 15.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -98.000000 0 21.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 90.000000 0 10.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 96.000000 0 -23.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 0.000000 0 -18.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 47.000000 0 -7.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -10.000000 0 -10.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 63.000000 0 -16.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 72.000000 0 13.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 11.000000 0 -18.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -87.000000 0 8.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 70.000000 0 23.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 75.000000 0 13.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -53.000000 0 -9.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 63.000000 0 22.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -19.000000 0 -21.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -22.000000 0 11.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 84.000000 0 -6.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -99.000000 0 -10.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -9.000000 0 -22.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -36.000000 0 15.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 79.000000 0 -17.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 82.000000 0 -12.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -37.000000 0 11.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 50.000000 0 14.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -58.000000 0 -15.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 65.000000 0 -13.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -2.000000 0 -9.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -90.000000 0 -11.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 62.000000 0 22.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 87.000000 0 -19.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 15.000000 0 -10.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 2.000000 0 -5.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -11.000000 0 8.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -28.000000 0 10.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 53.000000 0 -12.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 81.000000 0 10.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -52.000000 0 8.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 16.000000 0 -18.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 9.000000 0 -12.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 40.000000 0 19.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 72.000000 0 14.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 77.000000 0 8.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -20.000000 0 17.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 30.000000 0 -10.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -60.000000 0 15.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 41.000000 0 -16.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -37.000000 0 24.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 41.000000 0 -20.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 77.000000 0 10.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 10.000000 0 -10.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -38.000000 0 -22.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -41.000000 0 -11.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 88.000000 0 24.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 60.000000 0 -6.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -71.000000 0 6.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 33.000000 0 20.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -5.000000 0 -15.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 7.000000 0 -16.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -63.000000 0 13.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -7.000000 0 -15.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -84.000000 0 17.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 20.000000 0 8.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 55.000000 0 16.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 15.000000 0 -16.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -28.000000 0 17.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -73.000000 0 11.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -34.000000 0 -6.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -64.000000 0 -5.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 1.000000 0 14.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 72.000000 0 20.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -9.000000 0 8.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 28.000000 0 -8.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 64.000000 0 23.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -22.000000 0 11.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 6.000000 0 -23.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 35.000000 0 23.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -89.000000 0 21.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 97.000000 0 -17.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 86.000000 0 -18.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -97.000000 0 -22.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation -86.000000 0 6.000000
-children [
-Inline { url "model2.wrl"}]}
-Transform {
-translation 78.000000 0 -14.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 6.000000 0 10.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 37.000000 0 21.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -21.000000 0 7.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -34.000000 0 -22.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -21.000000 0 -13.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 65.000000 0 -10.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 84.000000 0 -16.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 24.000000 0 11.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -21.000000 0 17.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -83.000000 0 -16.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 6.000000 0 14.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 57.000000 0 11.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 35.000000 0 22.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -37.000000 0 21.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 69.000000 0 -20.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -29.000000 0 -18.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 57.000000 0 14.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 76.000000 0 -18.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -95.000000 0 -9.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -13.000000 0 -6.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 99.000000 0 24.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -44.000000 0 -21.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -59.000000 0 -8.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 8.000000 0 -11.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 92.000000 0 -12.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 4.000000 0 15.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 93.000000 0 -12.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -55.000000 0 21.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -37.000000 0 -18.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 65.000000 0 -6.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -73.000000 0 5.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 61.000000 0 -13.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -50.000000 0 6.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 80.000000 0 -14.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 14.000000 0 6.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 87.000000 0 -22.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -86.000000 0 7.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -19.000000 0 -24.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 14.000000 0 -7.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 90.000000 0 -12.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 28.000000 0 11.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 36.000000 0 13.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -31.000000 0 15.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -30.000000 0 -15.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -3.000000 0 21.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -77.000000 0 -8.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 20.000000 0 14.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 45.000000 0 16.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 77.000000 0 -22.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -29.000000 0 -24.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -82.000000 0 12.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -83.000000 0 -9.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 24.000000 0 -10.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 32.000000 0 -12.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 1.000000 0 -9.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -77.000000 0 -5.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 54.000000 0 17.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -13.000000 0 22.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -81.000000 0 -12.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 65.000000 0 23.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -9.000000 0 -14.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -77.000000 0 -11.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -25.000000 0 -8.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -51.000000 0 12.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 25.000000 0 14.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 69.000000 0 9.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -84.000000 0 24.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 85.000000 0 -11.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -95.000000 0 23.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -6.000000 0 -8.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -57.000000 0 19.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 31.000000 0 -14.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 43.000000 0 -9.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -96.000000 0 10.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -19.000000 0 7.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 75.000000 0 -16.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -40.000000 0 -13.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -42.000000 0 18.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -34.000000 0 -16.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -40.000000 0 -10.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -35.000000 0 5.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -1.000000 0 -16.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 32.000000 0 11.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -13.000000 0 -16.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -50.000000 0 9.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -26.000000 0 -16.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 83.000000 0 17.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -18.000000 0 7.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 8.000000 0 5.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 84.000000 0 -6.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 24.000000 0 11.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 70.000000 0 -11.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 45.000000 0 15.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 25.000000 0 -22.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -85.000000 0 5.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -65.000000 0 19.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -42.000000 0 14.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 50.000000 0 17.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -53.000000 0 17.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 7.000000 0 -22.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -28.000000 0 18.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -10.000000 0 8.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -8.000000 0 13.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -80.000000 0 11.000000
-children [
-Inline { url "model3.wrl"}]}
 Transform {
 translation -69.000000 0 6.000000
 children [
-Inline { url "model3.wrl"}]}
+Inline { url "model1.wrl"}]}
 Transform {
-translation -94.000000 0 13.000000
+translation -17.000000 0 6.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -100.000000 0 -18.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 56.000000 0 5.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -79.000000 0 14.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -17.000000 0 20.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 67.000000 0 20.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 65.000000 0 9.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 39.000000 0 15.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 95.000000 0 10.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 31.000000 0 13.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 72.000000 0 -16.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -39.000000 0 -9.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 32.000000 0 5.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -5.000000 0 6.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 93.000000 0 9.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 40.000000 0 -8.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -61.000000 0 5.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 39.000000 0 24.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -12.000000 0 20.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -89.000000 0 -23.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -52.000000 0 -15.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 58.000000 0 -16.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -71.000000 0 -20.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -96.000000 0 -16.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -83.000000 0 21.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -63.000000 0 21.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 12.000000 0 -12.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 71.000000 0 -11.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -87.000000 0 12.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 19.000000 0 -15.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -74.000000 0 -15.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -84.000000 0 13.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -10.000000 0 -14.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -96.000000 0 -19.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 79.000000 0 8.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -50.000000 0 6.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 84.000000 0 18.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -2.000000 0 -10.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 31.000000 0 15.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -20.000000 0 -6.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -74.000000 0 -24.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -5.000000 0 20.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 96.000000 0 22.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 64.000000 0 6.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -5.000000 0 17.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 82.000000 0 -19.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 17.000000 0 23.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 39.000000 0 13.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -8.000000 0 -5.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 12.000000 0 -17.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -89.000000 0 15.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -8.000000 0 11.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 61.000000 0 -19.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 52.000000 0 -15.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 17.000000 0 10.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -74.000000 0 -24.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 15.000000 0 -21.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -50.000000 0 12.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -50.000000 0 5.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -20.000000 0 9.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 64.000000 0 12.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 75.000000 0 -24.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 85.000000 0 -18.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 81.000000 0 -10.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -77.000000 0 -20.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 85.000000 0 6.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 73.000000 0 -13.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 72.000000 0 -24.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -20.000000 0 14.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 79.000000 0 7.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 51.000000 0 -11.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 73.000000 0 18.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -7.000000 0 15.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -41.000000 0 -17.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 87.000000 0 12.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -80.000000 0 -17.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -8.000000 0 22.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -28.000000 0 -7.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -49.000000 0 19.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 71.000000 0 -18.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -53.000000 0 -9.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 38.000000 0 -14.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 93.000000 0 19.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -79.000000 0 -10.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 27.000000 0 -9.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -73.000000 0 9.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 1.000000 0 13.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 11.000000 0 -17.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -88.000000 0 -9.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -46.000000 0 -12.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 19.000000 0 -19.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 21.000000 0 -9.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -63.000000 0 -23.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation 55.000000 0 -16.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -43.000000 0 -23.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -86.000000 0 -23.000000
+children [
+Inline { url "model1.wrl"}]}
+Transform {
+translation -33.000000 0 24.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 89.000000 0 15.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 54.000000 0 -19.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 92.000000 0 -13.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -16.000000 0 24.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 33.000000 0 6.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -85.000000 0 15.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 19.000000 0 10.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 13.000000 0 19.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -68.000000 0 5.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -5.000000 0 12.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -2.000000 0 -21.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 14.000000 0 -15.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -2.000000 0 -8.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 17.000000 0 24.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 22.000000 0 -9.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -96.000000 0 24.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -97.000000 0 16.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -54.000000 0 -9.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 8.000000 0 -13.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 19.000000 0 -8.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -22.000000 0 19.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 50.000000 0 -5.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 97.000000 0 -24.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -76.000000 0 21.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 50.000000 0 16.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -50.000000 0 20.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 59.000000 0 15.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 86.000000 0 -22.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 86.000000 0 -22.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 27.000000 0 21.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -26.000000 0 -11.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 22.000000 0 -14.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 21.000000 0 11.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -86.000000 0 -7.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -13.000000 0 -17.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -75.000000 0 19.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 94.000000 0 -19.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 14.000000 0 5.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -2.000000 0 -11.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -17.000000 0 18.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 64.000000 0 5.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -14.000000 0 -7.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -79.000000 0 8.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 15.000000 0 15.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -62.000000 0 22.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 11.000000 0 7.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -8.000000 0 -21.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 35.000000 0 -7.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 35.000000 0 -6.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 52.000000 0 -21.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -91.000000 0 -5.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -67.000000 0 -24.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 26.000000 0 -17.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -63.000000 0 -5.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 42.000000 0 -23.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -60.000000 0 6.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 32.000000 0 -10.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -18.000000 0 -5.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -80.000000 0 20.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -64.000000 0 -12.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -42.000000 0 -22.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 12.000000 0 7.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 69.000000 0 -14.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 1.000000 0 -23.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 23.000000 0 -6.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 22.000000 0 -18.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -72.000000 0 -22.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 31.000000 0 24.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -4.000000 0 -24.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 74.000000 0 12.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -52.000000 0 23.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -65.000000 0 -7.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 73.000000 0 -16.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -64.000000 0 9.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 86.000000 0 -12.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 67.000000 0 7.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -11.000000 0 -15.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 96.000000 0 18.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 76.000000 0 -14.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -88.000000 0 8.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -45.000000 0 -9.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -81.000000 0 -16.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 85.000000 0 10.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -19.000000 0 -6.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -53.000000 0 24.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -74.000000 0 -11.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation -42.000000 0 -20.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 79.000000 0 9.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 67.000000 0 -17.000000
+children [
+Inline { url "model2.wrl"}]}
+Transform {
+translation 46.000000 0 -9.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -75.000000 0 11.000000
+translation 4.000000 0 16.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 96.000000 0 13.000000
+translation 1.000000 0 15.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -18.000000 0 12.000000
+translation 52.000000 0 21.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 48.000000 0 19.000000
+translation -26.000000 0 -14.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -93.000000 0 -24.000000
+translation 21.000000 0 13.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 72.000000 0 6.000000
+translation 68.000000 0 -11.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -12.000000 0 21.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 11.000000 0 -20.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 68.000000 0 -7.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 54.000000 0 5.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -57.000000 0 9.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 89.000000 0 22.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -74.000000 0 14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -20.000000 0 21.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -65.000000 0 -22.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 81.000000 0 -22.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -14.000000 0 -11.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -13.000000 0 -22.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -17.000000 0 10.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -96.000000 0 24.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 10.000000 0 20.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -93.000000 0 -9.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -34.000000 0 7.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -26.000000 0 7.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 10.000000 0 14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 27.000000 0 -7.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 97.000000 0 -14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -64.000000 0 -21.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -31.000000 0 16.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -83.000000 0 13.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 76.000000 0 -23.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 0.000000 0 22.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -58.000000 0 20.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -43.000000 0 6.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 16.000000 0 17.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -56.000000 0 -16.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -90.000000 0 5.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -46.000000 0 -21.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 36.000000 0 -23.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -77.000000 0 12.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 73.000000 0 20.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -21.000000 0 21.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -20.000000 0 -23.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -96.000000 0 -20.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 29.000000 0 8.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 96.000000 0 24.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 85.000000 0 -15.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 83.000000 0 21.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -71.000000 0 17.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 58.000000 0 12.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 76.000000 0 -6.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 43.000000 0 -5.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -32.000000 0 -5.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 68.000000 0 -9.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -79.000000 0 11.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 39.000000 0 -19.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -53.000000 0 24.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -4.000000 0 19.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -26.000000 0 -20.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -99.000000 0 -10.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
@@ -3721,87 +3513,371 @@ translation -4.000000 0 -18.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 9.000000 0 10.000000
+translation -62.000000 0 22.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -48.000000 0 21.000000
+translation 76.000000 0 10.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -77.000000 0 -20.000000
+translation 4.000000 0 10.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 53.000000 0 -5.000000
+translation -21.000000 0 -23.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 20.000000 0 -22.000000
+translation 69.000000 0 -22.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 11.000000 0 16.000000
+translation -82.000000 0 -22.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 86.000000 0 -24.000000
+translation -62.000000 0 18.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 79.000000 0 11.000000
+translation 86.000000 0 12.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 16.000000 0 -23.000000
+translation -54.000000 0 -14.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -83.000000 0 11.000000
+translation 94.000000 0 22.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 78.000000 0 21.000000
+translation 55.000000 0 12.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 25.000000 0 -13.000000
+translation -44.000000 0 -8.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 77.000000 0 9.000000
+translation 78.000000 0 24.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -83.000000 0 -22.000000
+translation -24.000000 0 -15.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -45.000000 0 -14.000000
+translation -68.000000 0 -24.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -58.000000 0 17.000000
+translation -58.000000 0 -22.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 29.000000 0 -23.000000
+translation -57.000000 0 12.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 74.000000 0 22.000000
+translation 70.000000 0 -18.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 46.000000 0 19.000000
+translation -48.000000 0 -17.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 91.000000 0 -8.000000
+translation 51.000000 0 11.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -98.000000 0 -6.000000
+translation -56.000000 0 -7.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -74.000000 0 23.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -87.000000 0 -13.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -23.000000 0 21.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 92.000000 0 13.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -4.000000 0 -7.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -63.000000 0 22.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 11.000000 0 24.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 45.000000 0 -8.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 88.000000 0 -20.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -12.000000 0 16.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 87.000000 0 23.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 9.000000 0 8.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -38.000000 0 -6.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 25.000000 0 -10.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -81.000000 0 6.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 63.000000 0 15.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 46.000000 0 6.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -98.000000 0 -24.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 31.000000 0 -12.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -22.000000 0 13.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -53.000000 0 -20.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 98.000000 0 -22.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -94.000000 0 -16.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -97.000000 0 14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -32.000000 0 -5.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -1.000000 0 8.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 88.000000 0 14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -43.000000 0 -9.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -39.000000 0 20.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -100.000000 0 18.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -78.000000 0 17.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -97.000000 0 -15.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 7.000000 0 14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 16.000000 0 17.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -30.000000 0 -17.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -83.000000 0 -16.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 94.000000 0 -17.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -36.000000 0 14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 74.000000 0 7.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 11.000000 0 -7.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -32.000000 0 9.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -68.000000 0 24.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 14.000000 0 -23.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 27.000000 0 19.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 1.000000 0 9.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -45.000000 0 6.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 53.000000 0 -12.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -55.000000 0 -17.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 80.000000 0 11.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -9.000000 0 14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -94.000000 0 14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 26.000000 0 -6.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 44.000000 0 20.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 23.000000 0 -19.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -34.000000 0 -12.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -11.000000 0 8.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 47.000000 0 -13.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -22.000000 0 -10.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 37.000000 0 -11.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -9.000000 0 -14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 38.000000 0 12.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 50.000000 0 -18.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -66.000000 0 14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -4.000000 0 9.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -96.000000 0 15.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -71.000000 0 16.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -64.000000 0 -24.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 22.000000 0 -22.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation -100.000000 0 -11.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 96.000000 0 -14.000000
+children [
+Inline { url "model3.wrl"}]}
+Transform {
+translation 73.000000 0 13.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
@@ -3809,195 +3885,27 @@ translation 99.000000 0 -23.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -88.000000 0 20.000000
+translation -42.000000 0 -17.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 52.000000 0 9.000000
+translation -35.000000 0 5.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -56.000000 0 -24.000000
+translation 47.000000 0 -10.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation 34.000000 0 7.000000
+translation 56.000000 0 -19.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -94.000000 0 8.000000
+translation 0.000000 0 -7.000000
 children [
 Inline { url "model3.wrl"}]}
 Transform {
-translation -42.000000 0 22.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -53.000000 0 20.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 47.000000 0 23.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -46.000000 0 -18.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -24.000000 0 17.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 71.000000 0 21.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -90.000000 0 -5.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -2.000000 0 -9.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 55.000000 0 15.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 96.000000 0 14.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -44.000000 0 -12.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 13.000000 0 11.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 88.000000 0 -11.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 46.000000 0 5.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 17.000000 0 -13.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -74.000000 0 -5.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation -50.000000 0 -15.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 10.000000 0 -14.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 9.000000 0 -21.000000
-children [
-Inline { url "model3.wrl"}]}
-Transform {
-translation 73.000000 0 13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -59.000000 0 -14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 27.000000 0 14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -49.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 14.000000 0 10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 62.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -18.000000 0 -13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 50.000000 0 -10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 30.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 55.000000 0 13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 62.000000 0 -11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -82.000000 0 13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -87.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -34.000000 0 -13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -46.000000 0 -10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 53.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 1.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 29.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -48.000000 0 10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 3.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -9.000000 0 -11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -36.000000 0 -11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -2.000000 0 11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -54.000000 0 12.000000
+translation -38.000000 0 14.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
@@ -4005,351 +3913,51 @@ translation -60.000000 0 -11.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 62.000000 0 -10.000000
+translation 56.000000 0 -14.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 5.000000 0 13.000000
+translation 33.000000 0 -14.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -21.000000 0 -10.000000
+translation 46.000000 0 -13.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -58.000000 0 12.000000
+translation 4.000000 0 -14.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -8.000000 0 10.000000
+translation -9.000000 0 14.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -81.000000 0 -12.000000
+translation 3.000000 0 11.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 41.000000 0 13.000000
+translation -14.000000 0 -14.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -74.000000 0 -14.000000
+translation 20.000000 0 11.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -25.000000 0 -10.000000
+translation 85.000000 0 11.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 49.000000 0 11.000000
+translation -21.000000 0 -11.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 74.000000 0 10.000000
+translation -69.000000 0 -10.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 73.000000 0 11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -61.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 44.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 22.000000 0 14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -36.000000 0 10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 52.000000 0 11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 8.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -7.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 10.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -25.000000 0 -13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -19.000000 0 11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 42.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -82.000000 0 -11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 11.000000 0 -13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -74.000000 0 10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 54.000000 0 -14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -40.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 17.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 81.000000 0 14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -48.000000 0 -10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 65.000000 0 11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -76.000000 0 10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -66.000000 0 -13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 25.000000 0 11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -30.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 62.000000 0 13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 21.000000 0 10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 43.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 64.000000 0 14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 44.000000 0 -13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -33.000000 0 13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 48.000000 0 14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -44.000000 0 13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 57.000000 0 10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -76.000000 0 -10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 23.000000 0 -10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -44.000000 0 11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 54.000000 0 14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 39.000000 0 13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -65.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 65.000000 0 11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -66.000000 0 -14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -68.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -11.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 80.000000 0 13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 40.000000 0 -14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 13.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -78.000000 0 11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -74.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -37.000000 0 -13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 1.000000 0 -10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -39.000000 0 -14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -89.000000 0 13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -22.000000 0 10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -7.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -59.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 26.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -52.000000 0 -10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 19.000000 0 13.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -43.000000 0 -11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -27.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 48.000000 0 14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 87.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 60.000000 0 -10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -12.000000 0 -10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -64.000000 0 -14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -34.000000 0 -10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -80.000000 0 -10.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -57.000000 0 -11.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -68.000000 0 -14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation 67.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -35.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -43.000000 0 -14.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -63.000000 0 12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -90.000000 0 -12.000000
-children [
-Inline { url "model4.wrl"}]}
-Transform {
-translation -8.000000 0 -13.000000
+translation 13.000000 0 13.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
@@ -4357,71 +3965,463 @@ translation -69.000000 0 -11.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -43.000000 0 13.000000
+translation 12.000000 0 10.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -45.000000 0 12.000000
+translation -63.000000 0 -12.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -59.000000 0 11.000000
+translation -58.000000 0 -10.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 20.000000 0 -10.000000
+translation -7.000000 0 -11.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 52.000000 0 -10.000000
+translation -10.000000 0 13.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 88.000000 0 12.000000
+translation 81.000000 0 10.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -75.000000 0 -10.000000
+translation 57.000000 0 11.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 67.000000 0 -10.000000
+translation -18.000000 0 13.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -18.000000 0 -14.000000
+translation 11.000000 0 -11.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 60.000000 0 -12.000000
+translation 61.000000 0 10.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -69.000000 0 -14.000000
+translation 60.000000 0 14.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -7.000000 0 11.000000
+translation -62.000000 0 -11.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -82.000000 0 14.000000
+translation -59.000000 0 -13.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 62.000000 0 10.000000
+translation 87.000000 0 13.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -52.000000 0 -14.000000
+translation 84.000000 0 10.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation -1.000000 0 13.000000
+translation 1.000000 0 -12.000000
 children [
 Inline { url "model4.wrl"}]}
 Transform {
-translation 32.000000 0 -10.000000
+translation 46.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 18.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 38.000000 0 12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -53.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -67.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 89.000000 0 -10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 9.000000 0 13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -34.000000 0 -12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -15.000000 0 11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 48.000000 0 10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 73.000000 0 13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 1.000000 0 11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -17.000000 0 -12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 45.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -23.000000 0 12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -15.000000 0 13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 44.000000 0 -14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -70.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -17.000000 0 13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 79.000000 0 13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -24.000000 0 -13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 3.000000 0 10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -76.000000 0 10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -33.000000 0 10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 28.000000 0 -12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -27.000000 0 12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -12.000000 0 -13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 50.000000 0 13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 82.000000 0 -14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 77.000000 0 -10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -1.000000 0 11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -16.000000 0 -12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -39.000000 0 11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -18.000000 0 13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 33.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 8.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -42.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -17.000000 0 -12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 11.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -10.000000 0 10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 5.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 15.000000 0 10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 61.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -42.000000 0 11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -29.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -15.000000 0 11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -51.000000 0 -10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 47.000000 0 -10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -59.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 64.000000 0 -14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -83.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -73.000000 0 11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -70.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 70.000000 0 -10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -86.000000 0 11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -58.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 88.000000 0 -12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 18.000000 0 12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -22.000000 0 -13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 10.000000 0 -13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -77.000000 0 -10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 36.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 65.000000 0 12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -15.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -3.000000 0 10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -33.000000 0 -12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -7.000000 0 -12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -3.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 51.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -51.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 55.000000 0 -14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 0.000000 0 11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 45.000000 0 -13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -70.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -65.000000 0 -13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -7.000000 0 10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -52.000000 0 10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -58.000000 0 -12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -15.000000 0 13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -72.000000 0 -14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 55.000000 0 14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -64.000000 0 -14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 76.000000 0 12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 61.000000 0 12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 49.000000 0 13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -30.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 36.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 12.000000 0 -13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -69.000000 0 -10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 41.000000 0 -14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 30.000000 0 -11.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 16.000000 0 -14.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -55.000000 0 12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 25.000000 0 -13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -82.000000 0 -10.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 49.000000 0 12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 9.000000 0 13.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation -13.000000 0 -12.000000
+children [
+Inline { url "model4.wrl"}]}
+Transform {
+translation 18.000000 0 -10.000000
 children [
 Inline { url "model4.wrl"}]}
 DEF X TimeSensor {loop TRUE cycleInterval 10}
