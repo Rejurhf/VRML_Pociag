@@ -17,15 +17,41 @@ def defineTrainTrackGroup(trainTrackName):
   outStr += ('Transform {\n'
     ' translation 0 -1 0\n'
     ' children [\n'
-    '   DEF ' + trainTrackName +' Shape {\n'
-    '     appearance Appearance {\n'
-    '       material Material { diffuseColor 1 0.5 0.25 }\n'
-    '     }\n'
-    '     geometry Box {\n'
-    '       size 0.3 0.2 2.5\n'
-    '     }\n' 
+    '   DEF ' + trainTrackName + ' Group {\n'
+    '     children [\n'
+    '       Transform {\n'
+    '         translation 0 0.1 0\n'
+    '         children [\n'
+    '           DEF underlay Shape {\n'
+    '             appearance Appearance {\n'
+    '               material Material { diffuseColor 1 0.5 0.25 }\n'
+    '             }\n'
+    '             geometry Box {\n'
+    '               size 0.3 0.2 2.5\n'
+    '             }\n'
+    '           }\n'
+    '         ]\n'
+    '       }\n'
+    '       Transform {\n'
+    '         translation 0 0.3 -1\n'
+    '         children [\n'
+    '           DEF railway Shape {\n'
+    '             appearance Appearance {\n'
+    '               material Material { diffuseColor 0.25 0.25 0.25 }\n'
+    '             }\n'
+    '             geometry Box {\n'
+    '               size 1 0.2 0.1\n'
+    '             }\n'
+    '           }\n'
+    '         ]\n'
+    '       }\n'
+    '       Transform {\n'
+    '         translation 0 0.3 1\n'
+    '         children   [ USE railway ]\n'
+    '       }\n'
+    '     ]\n'
     '   }\n'
-    ' ]\n' 
+    ' ]\n'
     '}\n')
   return outStr, trainTrackName
 
@@ -159,9 +185,6 @@ def generateVRMLString():
   strVRML += tmpStr
   # Add Train Track (x1, y1, z1, r1, x2, y2, z2, r2, trainTrackName='', desc='') r1/r2 - rotation in radian (Y axis)
   strVRML += getTrainTracks(0, 0.1, 10, 0, 10, 0.1, 0, 1.57, trainTrackName, 'opis')
-
-  # Add Railways
-  strVRML += originalGenerator.getRailways()
 
   # Add Viewpoints
   strVRML += originalGenerator.getViewpoints(0, 0)
