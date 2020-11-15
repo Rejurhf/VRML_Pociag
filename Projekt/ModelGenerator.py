@@ -36,16 +36,21 @@ def find_center(x1, y1, x2, y2, angle):
 
   # Slope of a line perpendicular to the chord
   new_slope = -1/slope
-
+  print('slope, new_slope', slope, new_slope)
   # Point on the line perpendicular to the chord
   # Note that this line also passes through the center of the circle
+  # Center between points
   xm, ym = (x1+x2)/2, (y1+y2)/2
 
+  print('xm, ym', xm, ym)
   # Distance between p1 and p2
   d_chord = math.sqrt((x1-x2)**2 + (y1-y2)**2)
 
   # Distance between xm, ym and center of the circle (xc, yc)
-  d_perp = d_chord/(2*math.tan(angle))
+  # d_perp = d_chord/(2*math.tan(angle))
+  d_perp = d_chord/(2*math.tan(angle/-2))
+
+  print('d_chord, s_perp', d_chord, d_perp)
 
   # Equation of line perpendicular to the chord: y-ym = new_slope(x-xm)
   # Distance between xm,ym and xc, yc: (yc-ym)^2 + (xc-xm)^2 = d_perp^2
@@ -74,17 +79,29 @@ def generatePositionList(x1, y1, z1, r1, x2, y2, z2, r2):
   # radius/distance from center to points
   radius = abs(x2-x1) if abs(x2-x1) > abs(z2-z1) else abs(z2-z1)
   p = dist/2 + radius
+  print('dist, radius, p', dist, radius, p)
   area = math.sqrt(p*(p-radius)*(p-radius)*(p-dist))
   angle = math.asin((2*area)/(radius*radius))
+  print('area, angle', area, angle)
   # Get center of circle
   xC, zC = find_center(x1, z1, x2, z2, angle)
-
+  print('Center:', xC, zC)
   # get start angle
   startAngle = math.acos((x1 - xC)/radius)
+  dAngle = (math.acos((x2 - xC)/radius) - startAngle)/numOfElem
+  startAngleZ = math.asin((z1 - zC)/radius)
+  dAngleZ = (math.asin((z2 - zC)/radius) - startAngleZ)/numOfElem
 
   # Generate positions
   for i in range(numOfElem+1):
-    posList.append((x1+(dX*i), y1+(dY*i), z1+(dZ*i), r1+(dR*i)))
+    newX = round(xC+(radius*math.cos(startAngle+(dAngle*i))), 4)
+    newY = round(y1+(dY*i), 4)
+    newZ = round(zC+(radius*math.sin(startAngleZ+(dAngleZ*i))), 4)
+    newR = round(r1+(dR*i), 4)
+    
+    # print(newX, newY, newZ, newR)
+
+    posList.append((newX, newY, newZ, newR))
   
   return posList
 
@@ -135,7 +152,7 @@ def generateVRMLString():
   tmpStr, underlayName = defineTrainTracksUnderlayShape('underlay')
   strVRML += tmpStr
   # Add underlay (x1, y1, z1, r1, x2, y2, z2, r2, underlayName='', desc='') r1/r2 - rotation in radian (Y axis)
-  strVRML += getTrainTracksUnderlay(-10, 0.1, -10, 0, 10, 0.1, 15, -1.57, underlayName, 'opis')
+  strVRML += getTrainTracksUnderlay(0, 0.1, 10, 0, 10, 0.1, 0, 1.57, underlayName, 'opis')
 
   # Add Viewpoints
   strVRML += originalGenerator.getViewpoints(0, 0)
