@@ -127,3 +127,33 @@ def getTrain():
     'ROUTE Y.value_changed TO Z.set_translation\n')
 
   return outStr
+
+# Generate original model
+def generateOriginalModel():
+  # Init
+  strVRML = '#VRML V2.0 utf8\n'
+
+  # Add Green Plane
+  strVRML += getPlane()
+
+  # Add Train Tracks Underlay
+  strVRML += getTrainTracksUnderlay(-100, 0.1, 0)
+
+  # Add Railways
+  strVRML += getRailways()
+
+  # Add Viewpoints
+  strVRML += getViewpoints(-100, 0)
+
+  # Add Random Trees
+  strVRML += getRandomTrees(100, 'tree1.wrl')
+  strVRML += getRandomTrees(90, 'tree2.wrl')
+  strVRML += getRandomTrees(160, 'tree3.wrl')
+
+  # Add Terrain
+  strVRML += getTerrain(130, 'terrain1.wrl')
+
+  # Add Train
+  strVRML += getTrain()
+
+  return strVRML
