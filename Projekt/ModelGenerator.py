@@ -56,7 +56,7 @@ def defineTrainTrackGroup(trainTrackName):
   return outStr, trainTrackName
 
 
-def find_center(x1, y1, x2, y2, angle):
+def find_center(x1, y1, x2, y2, angle, r1, r2):
   # Slope of the line through the chord
   slope = (y1-y2)/(x1-x2) if x1-x2 != 0 else 0 
 
@@ -73,7 +73,11 @@ def find_center(x1, y1, x2, y2, angle):
 
   # Distance between xm, ym and center of the circle (xc, yc)
   # d_perp = d_chord/(2*math.tan(angle))
-  d_perp = round(d_chord/(2*math.tan(angle/-2)), 4)
+
+  # get center on the right side
+  div = -2 if round(math.sin(r1), 1) >= 0  else 2
+  print('div {}, sin(r1) {}, cos(r2) {}, sin(r1) {}, cos(r2) {}'.format(div, round(math.sin(r1), 1), round(math.cos(r1), 1), round(math.sin(r2), 1), round(math.cos(r2), 1)))
+  d_perp = round(d_chord/(2*math.tan(angle/div)), 4)
 
   # Equation of line perpendicular to the chord: y-ym = new_slope(x-xm)
   # Distance between xm,ym and xc, yc: (yc-ym)^2 + (xc-xm)^2 = d_perp^2
@@ -108,40 +112,47 @@ def generatePositionList(x1, y1, z1, r1, x2, y2, z2, r2):
   dist = math.sqrt((x2-x1)**2+(z2-z1)**2)
   # radius/distance from center to points
   angle = round(r2 - r1, 4)
-  radius = round(dist/(2*math.sin(angle/2)), 4)
-  # radius = abs(x2-x1) if abs(x2-x1) > abs(z2-z1) else abs(z2-z1)
-  # p = dist/2 + radius
-  # area = math.sqrt(p*(p-radius)*(p-radius)*(p-dist))
-  # angle = math.asin((2*area)/(radius*radius))
+  radius = round(dist/(2*math.sin(angle/2)), 4) if 2*math.sin(angle/2) != 0 else 0
   
-  # Get center of circle
-  xC, zC = find_center(x1, z1, x2, z2, angle)
-
-  # get start angle
-  if x2-x1 == 0:
-    startAngle = round(math.asin((z1 - zC)/radius), 4)
-    dAngle = round((math.asin((z2 - zC)/radius) - startAngle)/numOfElem, 4)
+  
+  if r1 == r2:
+    # Go straight
+    tmpNumOFElem = round(numOfElem*0.7)
+    dX, dZ = (x2-x1)/tmpNumOFElem, (z2-z1)/tmpNumOFElem
+    for i in range(tmpNumOFElem+1):
+      posList.append((x1+(dX*i), y1, z1+(dZ*i), r2))
   else:
-    startAngle = round(math.acos((x1 - xC)/radius), 4)
-    dAngle = round((math.acos((x2 - xC)/radius) - startAngle)/numOfElem, 4)
+    # Go in circle
+    # Get center of circle
+    xC, zC = find_center(x1, z1, x2, z2, angle, r1, r2)
 
-  # print('center {}, radius {}, angle {}, startAngle {}, dAngle {}'.format(xC, zC, radius, angle, startAngle, dAngle))
+    # get start angle
+    if x2-x1 == 0:
+      startAngle = round(math.asin((z1 - zC)/radius), 4)
+      dAngle = round((math.asin((z2 - zC)/radius) - startAngle)/numOfElem, 4)
+    else:
+      startAngle = round(math.acos((x1 - xC)/radius), 4)
+      dAngle = round((math.acos((x2 - xC)/radius) - startAngle)/numOfElem, 4)
 
-  # Generate positions
-  for i in range(numOfElem+1):
-    newX = round(xC+(radius*math.cos(startAngle+(dAngle*i))), 4)
-    newY = round(y1+(dY*i), 4)
-    newZ = round(zC+(radius*math.sin(startAngle+(dAngle*i))), 4)
-    newR = round(r1+(dR*i), 4)
+    print('center ({},{}), radius {}, angle {}, startAngle {}, dAngle {}'.format(xC, zC, radius, angle, startAngle, dAngle))
+    # Generate positions
+    for i in range(numOfElem+1):
+      newX = round(xC+(radius*math.cos(startAngle+(dAngle*i))), 4)
+      newY = round(y1+(dY*i), 4)
+      if angle < 0:
+        newZ = round(zC+(radius*math.sin(-startAngle-(dAngle*i))), 4)
+      else:
+        newZ = round(zC+(radius*math.sin(startAngle-(dAngle*i))), 4)
+      newR = round(r1+(dR*i), 4)
 
-    posList.append((newX, newY, newZ, newR))
+      posList.append((newX, newY, newZ, newR))
   
   return posList
 
 
-def getTrainTracks(x1, y1, z1, r1, x2, y2, z2, r2, trainTrackName='', desc=''):
-  print('Get Train Track', desc)
-  outStr = '\n# Train Track {}\n'.format(desc)
+def getTrainTracks(x1, y1, z1, r1, x2, y2, z2, r2, trainTrackName=''):
+  print('Get Train Track')
+  outStr = '\n# Train Track\n'
 
   # Generate list of Train Tracks positions
   posList = generatePositionList(x1, y1, z1, r1, x2, y2, z2, r2)
@@ -168,6 +179,16 @@ def getTrainTracks(x1, y1, z1, r1, x2, y2, z2, r2, trainTrackName='', desc=''):
   return outStr
 
 
+def createRailWaysFromPoints(pointList, trainTrackName):
+  outStr = ''
+  for i in range(len(pointList)-1):
+    print(i, pointList[i], pointList[i+1])
+    # Add Train Track (x1, y1, z1, r1, x2, y2, z2, r2, trainTrackName='') r1/r2 - rotation in radian (Y axis)
+    outStr += getTrainTracks(pointList[i][0], pointList[i][1], pointList[i][2], pointList[i][3], pointList[i+1][0], pointList[i+1][1], pointList[i+1][2], pointList[i+1][3], trainTrackName)
+  
+  return outStr
+
+
 # Generator main function
 def generateVRMLString():
   # Original generator - to use it comment all other lines
@@ -183,11 +204,13 @@ def generateVRMLString():
   # Define Train Track object
   tmpStr, trainTrackName = defineTrainTrackGroup('traintrack')
   strVRML += tmpStr
-  # Add Train Track (x1, y1, z1, r1, x2, y2, z2, r2, trainTrackName='', desc='') r1/r2 - rotation in radian (Y axis)
-  strVRML += getTrainTracks(0, 0.1, 10, 0, 10, 0.1, 0, 1.57, trainTrackName, 'opis')
+
+  # Path to generate (x, y, z, r)
+  pointList = [(30, 0.1, 10, 0), (40, 0.1, 0, math.pi/2), (30, 0.1, -10, math.pi), (20, 0.1, -20, math.pi/2), (20, 0.1, -30, math.pi/2), (-10, 0.1, -30, 3/2*math.pi), (-10, 0.1, -10, 3/2*math.pi), (-20, 0.1, 0, math.pi), (-30, 0.1, 0, math.pi), (-40, 0.1, 10, 3/2*math.pi), (-40, 0.1, 30, 3/2*math.pi), (-30, 0.1, 40, 2*math.pi), (-10, 0.1, 40, 2*math.pi), (0, 0.1, 30, 5/2*math.pi), (0, 0.1, 20, 5/2*math.pi), (10, 0.1, 10, 2*math.pi), (30, 0.1, 10, 2*math.pi)]
+  strVRML += createRailWaysFromPoints(pointList, trainTrackName)
 
   # Add Viewpoints
-  strVRML += originalGenerator.getViewpoints(0, 0)
+  strVRML += originalGenerator.getViewpoints(-20, 0)
   
   return strVRML
 

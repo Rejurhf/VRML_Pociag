@@ -47,166 +47,2051 @@ Transform {
  ]
 }
 
-# Train Track opis
+# Train Track
 Transform {
- translation -0.0 0.1 10.0
+ translation 30.0 0.1 10.0
  rotation 0 1 0 0.0
  children [ USE traintrack ]
 }
 Transform {
- translation 0.7845 0.1 9.9689
+ translation 30.7842 0.1 9.9692
  rotation 0 1 0 0.0785
  children [ USE traintrack ]
 }
 Transform {
- translation 1.5641 0.1 9.8763
- rotation 0 1 0 0.157
+ translation 31.5635 0.1 9.877
+ rotation 0 1 0 0.1571
  children [ USE traintrack ]
 }
 Transform {
- translation 2.3341 0.1 9.7229
- rotation 0 1 0 0.2355
+ translation 32.3333 0.1 9.724
+ rotation 0 1 0 0.2356
  children [ USE traintrack ]
 }
 Transform {
- translation 3.0897 0.1 9.5096
- rotation 0 1 0 0.314
+ translation 33.0886 0.1 9.511
+ rotation 0 1 0 0.3142
  children [ USE traintrack ]
 }
 Transform {
- translation 3.8262 0.1 9.2377
- rotation 0 1 0 0.3925
+ translation 33.825 0.1 9.2395
+ rotation 0 1 0 0.3927
  children [ USE traintrack ]
 }
 Transform {
- translation 4.5391 0.1 8.9089
- rotation 0 1 0 0.471
+ translation 34.5377 0.1 8.9111
+ rotation 0 1 0 0.4712
  children [ USE traintrack ]
 }
 Transform {
- translation 5.2241 0.1 8.5252
- rotation 0 1 0 0.5495
+ translation 35.2226 0.1 8.5278
+ rotation 0 1 0 0.5498
  children [ USE traintrack ]
 }
 Transform {
- translation 5.8768 0.1 8.0889
- rotation 0 1 0 0.628
+ translation 35.8752 0.1 8.092
+ rotation 0 1 0 0.6283
  children [ USE traintrack ]
 }
 Transform {
- translation 6.4934 0.1 7.6029
- rotation 0 1 0 0.7065
+ translation 36.4917 0.1 7.6064
+ rotation 0 1 0 0.7069
  children [ USE traintrack ]
 }
 Transform {
- translation 7.0699 0.1 7.0699
- rotation 0 1 0 0.785
+ translation 37.0682 0.1 7.0739
+ rotation 0 1 0 0.7854
  children [ USE traintrack ]
 }
 Transform {
- translation 7.6028 0.1 6.4934
- rotation 0 1 0 0.8635
+ translation 37.6012 0.1 6.4978
+ rotation 0 1 0 0.8639
  children [ USE traintrack ]
 }
 Transform {
- translation 8.0889 0.1 5.8769
- rotation 0 1 0 0.942
+ translation 38.0873 0.1 5.8817
+ rotation 0 1 0 0.9425
  children [ USE traintrack ]
 }
 Transform {
- translation 8.5252 0.1 5.2241
- rotation 0 1 0 1.0205
+ translation 38.5237 0.1 5.2294
+ rotation 0 1 0 1.021
  children [ USE traintrack ]
 }
 Transform {
- translation 8.9089 0.1 4.5392
- rotation 0 1 0 1.099
+ translation 38.9075 0.1 4.5448
+ rotation 0 1 0 1.0996
  children [ USE traintrack ]
 }
 Transform {
- translation 9.2377 0.1 3.8262
- rotation 0 1 0 1.1775
+ translation 39.2365 0.1 3.8323
+ rotation 0 1 0 1.1781
  children [ USE traintrack ]
 }
 Transform {
- translation 9.5096 0.1 3.0897
- rotation 0 1 0 1.256
+ translation 39.5086 0.1 3.0962
+ rotation 0 1 0 1.2566
  children [ USE traintrack ]
 }
 Transform {
- translation 9.7229 0.1 2.3341
- rotation 0 1 0 1.3345
+ translation 39.7221 0.1 2.341
+ rotation 0 1 0 1.3352
  children [ USE traintrack ]
 }
 Transform {
- translation 9.8763 0.1 1.5641
- rotation 0 1 0 1.413
+ translation 39.8758 0.1 1.5714
+ rotation 0 1 0 1.4137
  children [ USE traintrack ]
 }
 Transform {
- translation 9.9689 0.1 0.7845
- rotation 0 1 0 1.4915
+ translation 39.9686 0.1 0.7921
+ rotation 0 1 0 1.4923
  children [ USE traintrack ]
 }
 Transform {
- translation 10.0 0.1 0.0
- rotation 0 1 0 1.57
+ translation 40.0 0.1 0.0079
+ rotation 0 1 0 1.5708
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation 40.0 0.1 0.0
+ rotation 0 1 0 1.5708
+ children [ USE traintrack ]
+}
+Transform {
+ translation 39.9692 0.1 -0.7842
+ rotation 0 1 0 1.6493
+ children [ USE traintrack ]
+}
+Transform {
+ translation 39.877 0.1 -1.5636
+ rotation 0 1 0 1.7279
+ children [ USE traintrack ]
+}
+Transform {
+ translation 39.724 0.1 -2.3333
+ rotation 0 1 0 1.8064
+ children [ USE traintrack ]
+}
+Transform {
+ translation 39.5111 0.1 -3.0887
+ rotation 0 1 0 1.885
+ children [ USE traintrack ]
+}
+Transform {
+ translation 39.2396 0.1 -3.825
+ rotation 0 1 0 1.9635
+ children [ USE traintrack ]
+}
+Transform {
+ translation 38.9111 0.1 -4.5378
+ rotation 0 1 0 2.042
+ children [ USE traintrack ]
+}
+Transform {
+ translation 38.5279 0.1 -5.2226
+ rotation 0 1 0 2.1206
+ children [ USE traintrack ]
+}
+Transform {
+ translation 38.092 0.1 -5.8753
+ rotation 0 1 0 2.1991
+ children [ USE traintrack ]
+}
+Transform {
+ translation 37.6064 0.1 -6.4918
+ rotation 0 1 0 2.2777
+ children [ USE traintrack ]
+}
+Transform {
+ translation 37.0739 0.1 -7.0683
+ rotation 0 1 0 2.3562
+ children [ USE traintrack ]
+}
+Transform {
+ translation 36.4978 0.1 -7.6012
+ rotation 0 1 0 2.4347
+ children [ USE traintrack ]
+}
+Transform {
+ translation 35.8817 0.1 -8.0874
+ rotation 0 1 0 2.5133
+ children [ USE traintrack ]
+}
+Transform {
+ translation 35.2294 0.1 -8.5237
+ rotation 0 1 0 2.5918
+ children [ USE traintrack ]
+}
+Transform {
+ translation 34.5449 0.1 -8.9075
+ rotation 0 1 0 2.6704
+ children [ USE traintrack ]
+}
+Transform {
+ translation 33.8324 0.1 -9.2365
+ rotation 0 1 0 2.7489
+ children [ USE traintrack ]
+}
+Transform {
+ translation 33.0962 0.1 -9.5086
+ rotation 0 1 0 2.8274
+ children [ USE traintrack ]
+}
+Transform {
+ translation 32.341 0.1 -9.7221
+ rotation 0 1 0 2.906
+ children [ USE traintrack ]
+}
+Transform {
+ translation 31.5714 0.1 -9.8758
+ rotation 0 1 0 2.9845
+ children [ USE traintrack ]
+}
+Transform {
+ translation 30.7921 0.1 -9.9686
+ rotation 0 1 0 3.0631
+ children [ USE traintrack ]
+}
+Transform {
+ translation 30.008 0.1 -10.0
+ rotation 0 1 0 3.1416
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation 30.0 0.1 -10.0
+ rotation 0 1 0 3.1416
+ children [ USE traintrack ]
+}
+Transform {
+ translation 29.2158 0.1 -10.0308
+ rotation 0 1 0 3.0631
+ children [ USE traintrack ]
+}
+Transform {
+ translation 28.4365 0.1 -10.123
+ rotation 0 1 0 2.9845
+ children [ USE traintrack ]
+}
+Transform {
+ translation 27.6667 0.1 -10.276
+ rotation 0 1 0 2.906
+ children [ USE traintrack ]
+}
+Transform {
+ translation 26.9114 0.1 -10.4889
+ rotation 0 1 0 2.8274
+ children [ USE traintrack ]
+}
+Transform {
+ translation 26.175 0.1 -10.7604
+ rotation 0 1 0 2.7489
+ children [ USE traintrack ]
+}
+Transform {
+ translation 25.4623 0.1 -11.0888
+ rotation 0 1 0 2.6704
+ children [ USE traintrack ]
+}
+Transform {
+ translation 24.7774 0.1 -11.4721
+ rotation 0 1 0 2.5918
+ children [ USE traintrack ]
+}
+Transform {
+ translation 24.1248 0.1 -11.9079
+ rotation 0 1 0 2.5133
+ children [ USE traintrack ]
+}
+Transform {
+ translation 23.5083 0.1 -12.3936
+ rotation 0 1 0 2.4347
+ children [ USE traintrack ]
+}
+Transform {
+ translation 22.9318 0.1 -12.9261
+ rotation 0 1 0 2.3562
+ children [ USE traintrack ]
+}
+Transform {
+ translation 22.3988 0.1 -13.5022
+ rotation 0 1 0 2.2777
+ children [ USE traintrack ]
+}
+Transform {
+ translation 21.9127 0.1 -14.1183
+ rotation 0 1 0 2.1991
+ children [ USE traintrack ]
+}
+Transform {
+ translation 21.4763 0.1 -14.7706
+ rotation 0 1 0 2.1206
+ children [ USE traintrack ]
+}
+Transform {
+ translation 21.0925 0.1 -15.4551
+ rotation 0 1 0 2.042
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.7635 0.1 -16.1676
+ rotation 0 1 0 1.9635
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.4914 0.1 -16.9037
+ rotation 0 1 0 1.885
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.2779 0.1 -17.6589
+ rotation 0 1 0 1.8064
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.1242 0.1 -18.4285
+ rotation 0 1 0 1.7279
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0314 0.1 -19.2078
+ rotation 0 1 0 1.6493
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -19.992
+ rotation 0 1 0 1.5708
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation 20.0 0.1 -20.0
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -20.714285714285715
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -21.428571428571427
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -22.142857142857142
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -22.857142857142858
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -23.571428571428573
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -24.285714285714285
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -25.0
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -25.714285714285715
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -26.42857142857143
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -27.142857142857142
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -27.857142857142858
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -28.57142857142857
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -29.285714285714285
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 -30.0
+ rotation 0 1 0 1.5707963267948966
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation 20.0 0.1 -29.9999
+ rotation 0 1 0 1.5708
+ children [ USE traintrack ]
+}
+Transform {
+ translation 19.9794 0.1 -30.7855
+ rotation 0 1 0 1.6232
+ children [ USE traintrack ]
+}
+Transform {
+ translation 19.9177 0.1 -31.569
+ rotation 0 1 0 1.6755
+ children [ USE traintrack ]
+}
+Transform {
+ translation 19.815 0.1 -32.3482
+ rotation 0 1 0 1.7279
+ children [ USE traintrack ]
+}
+Transform {
+ translation 19.6717 0.1 -33.1209
+ rotation 0 1 0 1.7802
+ children [ USE traintrack ]
+}
+Transform {
+ translation 19.4881 0.1 -33.8851
+ rotation 0 1 0 1.8326
+ children [ USE traintrack ]
+}
+Transform {
+ translation 19.2647 0.1 -34.6386
+ rotation 0 1 0 1.885
+ children [ USE traintrack ]
+}
+Transform {
+ translation 19.0022 0.1 -35.3794
+ rotation 0 1 0 1.9373
+ children [ USE traintrack ]
+}
+Transform {
+ translation 18.7012 0.1 -36.1053
+ rotation 0 1 0 1.9897
+ children [ USE traintrack ]
+}
+Transform {
+ translation 18.3626 0.1 -36.8146
+ rotation 0 1 0 2.042
+ children [ USE traintrack ]
+}
+Transform {
+ translation 17.9874 0.1 -37.5051
+ rotation 0 1 0 2.0944
+ children [ USE traintrack ]
+}
+Transform {
+ translation 17.5765 0.1 -38.175
+ rotation 0 1 0 2.1468
+ children [ USE traintrack ]
+}
+Transform {
+ translation 17.131 0.1 -38.8225
+ rotation 0 1 0 2.1991
+ children [ USE traintrack ]
+}
+Transform {
+ translation 16.6523 0.1 -39.4458
+ rotation 0 1 0 2.2515
+ children [ USE traintrack ]
+}
+Transform {
+ translation 16.1415 0.1 -40.0431
+ rotation 0 1 0 2.3038
+ children [ USE traintrack ]
+}
+Transform {
+ translation 15.6002 0.1 -40.6129
+ rotation 0 1 0 2.3562
+ children [ USE traintrack ]
+}
+Transform {
+ translation 15.0298 0.1 -41.1535
+ rotation 0 1 0 2.4086
+ children [ USE traintrack ]
+}
+Transform {
+ translation 14.4319 0.1 -41.6635
+ rotation 0 1 0 2.4609
+ children [ USE traintrack ]
+}
+Transform {
+ translation 13.808 0.1 -42.1415
+ rotation 0 1 0 2.5133
+ children [ USE traintrack ]
+}
+Transform {
+ translation 13.16 0.1 -42.5862
+ rotation 0 1 0 2.5656
+ children [ USE traintrack ]
+}
+Transform {
+ translation 12.4896 0.1 -42.9963
+ rotation 0 1 0 2.618
+ children [ USE traintrack ]
+}
+Transform {
+ translation 11.7986 0.1 -43.3707
+ rotation 0 1 0 2.6704
+ children [ USE traintrack ]
+}
+Transform {
+ translation 11.089 0.1 -43.7085
+ rotation 0 1 0 2.7227
+ children [ USE traintrack ]
+}
+Transform {
+ translation 10.3626 0.1 -44.0086
+ rotation 0 1 0 2.7751
+ children [ USE traintrack ]
+}
+Transform {
+ translation 9.6215 0.1 -44.2702
+ rotation 0 1 0 2.8274
+ children [ USE traintrack ]
+}
+Transform {
+ translation 8.8678 0.1 -44.4927
+ rotation 0 1 0 2.8798
+ children [ USE traintrack ]
+}
+Transform {
+ translation 8.1034 0.1 -44.6754
+ rotation 0 1 0 2.9322
+ children [ USE traintrack ]
+}
+Transform {
+ translation 7.3305 0.1 -44.8178
+ rotation 0 1 0 2.9845
+ children [ USE traintrack ]
+}
+Transform {
+ translation 6.5512 0.1 -44.9195
+ rotation 0 1 0 3.0369
+ children [ USE traintrack ]
+}
+Transform {
+ translation 5.7676 0.1 -44.9802
+ rotation 0 1 0 3.0892
+ children [ USE traintrack ]
+}
+Transform {
+ translation 4.9819 0.1 -44.9999
+ rotation 0 1 0 3.1416
+ children [ USE traintrack ]
+}
+Transform {
+ translation 4.1963 0.1 -44.9784
+ rotation 0 1 0 3.194
+ children [ USE traintrack ]
+}
+Transform {
+ translation 3.4129 0.1 -44.9157
+ rotation 0 1 0 3.2463
+ children [ USE traintrack ]
+}
+Transform {
+ translation 2.6339 0.1 -44.8121
+ rotation 0 1 0 3.2987
+ children [ USE traintrack ]
+}
+Transform {
+ translation 1.8613 0.1 -44.6678
+ rotation 0 1 0 3.351
+ children [ USE traintrack ]
+}
+Transform {
+ translation 1.0974 0.1 -44.4833
+ rotation 0 1 0 3.4034
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.3441 0.1 -44.259
+ rotation 0 1 0 3.4558
+ children [ USE traintrack ]
+}
+Transform {
+ translation -0.3963 0.1 -43.9956
+ rotation 0 1 0 3.5081
+ children [ USE traintrack ]
+}
+Transform {
+ translation -1.1219 0.1 -43.6938
+ rotation 0 1 0 3.5605
+ children [ USE traintrack ]
+}
+Transform {
+ translation -1.8308 0.1 -43.3543
+ rotation 0 1 0 3.6128
+ children [ USE traintrack ]
+}
+Transform {
+ translation -2.5208 0.1 -42.9782
+ rotation 0 1 0 3.6652
+ children [ USE traintrack ]
+}
+Transform {
+ translation -3.1903 0.1 -42.5665
+ rotation 0 1 0 3.7176
+ children [ USE traintrack ]
+}
+Transform {
+ translation -3.8372 0.1 -42.1203
+ rotation 0 1 0 3.7699
+ children [ USE traintrack ]
+}
+Transform {
+ translation -4.4599 0.1 -41.6408
+ rotation 0 1 0 3.8223
+ children [ USE traintrack ]
+}
+Transform {
+ translation -5.0566 0.1 -41.1293
+ rotation 0 1 0 3.8746
+ children [ USE traintrack ]
+}
+Transform {
+ translation -5.6257 0.1 -40.5873
+ rotation 0 1 0 3.927
+ children [ USE traintrack ]
+}
+Transform {
+ translation -6.1657 0.1 -40.0163
+ rotation 0 1 0 3.9794
+ children [ USE traintrack ]
+}
+Transform {
+ translation -6.675 0.1 -39.4177
+ rotation 0 1 0 4.0317
+ children [ USE traintrack ]
+}
+Transform {
+ translation -7.1522 0.1 -38.7933
+ rotation 0 1 0 4.0841
+ children [ USE traintrack ]
+}
+Transform {
+ translation -7.5961 0.1 -38.1447
+ rotation 0 1 0 4.1364
+ children [ USE traintrack ]
+}
+Transform {
+ translation -8.0054 0.1 -37.4738
+ rotation 0 1 0 4.1888
+ children [ USE traintrack ]
+}
+Transform {
+ translation -8.379 0.1 -36.7824
+ rotation 0 1 0 4.2412
+ children [ USE traintrack ]
+}
+Transform {
+ translation -8.7159 0.1 -36.0723
+ rotation 0 1 0 4.2935
+ children [ USE traintrack ]
+}
+Transform {
+ translation -9.0151 0.1 -35.3456
+ rotation 0 1 0 4.3459
+ children [ USE traintrack ]
+}
+Transform {
+ translation -9.2759 0.1 -34.6042
+ rotation 0 1 0 4.3982
+ children [ USE traintrack ]
+}
+Transform {
+ translation -9.4974 0.1 -33.8502
+ rotation 0 1 0 4.4506
+ children [ USE traintrack ]
+}
+Transform {
+ translation -9.6792 0.1 -33.0856
+ rotation 0 1 0 4.5029
+ children [ USE traintrack ]
+}
+Transform {
+ translation -9.8207 0.1 -32.3125
+ rotation 0 1 0 4.5553
+ children [ USE traintrack ]
+}
+Transform {
+ translation -9.9214 0.1 -31.5331
+ rotation 0 1 0 4.6077
+ children [ USE traintrack ]
+}
+Transform {
+ translation -9.9813 0.1 -30.7495
+ rotation 0 1 0 4.66
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -29.9638
+ rotation 0 1 0 4.7124
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation -10.0 0.1 -30.0
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -29.285714285714285
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -28.571428571428573
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -27.857142857142858
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -27.142857142857142
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -26.428571428571427
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -25.714285714285715
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -25.0
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -24.285714285714285
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -23.57142857142857
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -22.857142857142858
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -22.142857142857142
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -21.42857142857143
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -20.714285714285715
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -20.0
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -19.285714285714285
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -18.57142857142857
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -17.857142857142858
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -17.142857142857142
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -16.42857142857143
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -15.714285714285714
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -15.0
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -14.285714285714285
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -13.57142857142857
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -12.857142857142858
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -12.142857142857142
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -11.428571428571427
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -10.714285714285715
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 -10.0
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation -10.0 0.1 -10.0001
+ rotation 0 1 0 4.7124
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0308 0.1 -9.2159
+ rotation 0 1 0 4.6338
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.123 0.1 -8.4365
+ rotation 0 1 0 4.5553
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.276 0.1 -7.6668
+ rotation 0 1 0 4.4768
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.4889 0.1 -6.9114
+ rotation 0 1 0 4.3982
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.7604 0.1 -6.1751
+ rotation 0 1 0 4.3197
+ children [ USE traintrack ]
+}
+Transform {
+ translation -11.0888 0.1 -5.4623
+ rotation 0 1 0 4.2412
+ children [ USE traintrack ]
+}
+Transform {
+ translation -11.4721 0.1 -4.7775
+ rotation 0 1 0 4.1626
+ children [ USE traintrack ]
+}
+Transform {
+ translation -11.9079 0.1 -4.1248
+ rotation 0 1 0 4.0841
+ children [ USE traintrack ]
+}
+Transform {
+ translation -12.3936 0.1 -3.5083
+ rotation 0 1 0 4.0055
+ children [ USE traintrack ]
+}
+Transform {
+ translation -12.9261 0.1 -2.9318
+ rotation 0 1 0 3.927
+ children [ USE traintrack ]
+}
+Transform {
+ translation -13.5021 0.1 -2.3988
+ rotation 0 1 0 3.8485
+ children [ USE traintrack ]
+}
+Transform {
+ translation -14.1182 0.1 -1.9127
+ rotation 0 1 0 3.7699
+ children [ USE traintrack ]
+}
+Transform {
+ translation -14.7705 0.1 -1.4763
+ rotation 0 1 0 3.6914
+ children [ USE traintrack ]
+}
+Transform {
+ translation -15.4551 0.1 -1.0925
+ rotation 0 1 0 3.6128
+ children [ USE traintrack ]
+}
+Transform {
+ translation -16.1676 0.1 -0.7635
+ rotation 0 1 0 3.5343
+ children [ USE traintrack ]
+}
+Transform {
+ translation -16.9037 0.1 -0.4914
+ rotation 0 1 0 3.4558
+ children [ USE traintrack ]
+}
+Transform {
+ translation -17.6589 0.1 -0.2779
+ rotation 0 1 0 3.3772
+ children [ USE traintrack ]
+}
+Transform {
+ translation -18.4285 0.1 -0.1243
+ rotation 0 1 0 3.2987
+ children [ USE traintrack ]
+}
+Transform {
+ translation -19.2078 0.1 -0.0314
+ rotation 0 1 0 3.2201
+ children [ USE traintrack ]
+}
+Transform {
+ translation -19.992 0.1 -0.0
+ rotation 0 1 0 3.1416
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation -20.0 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -20.714285714285715 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -21.428571428571427 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -22.142857142857142 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -22.857142857142858 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -23.571428571428573 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -24.285714285714285 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -25.0 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -25.714285714285715 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -26.42857142857143 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -27.142857142857142 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -27.857142857142858 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -28.57142857142857 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -29.285714285714285 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+Transform {
+ translation -30.0 0.1 0.0
+ rotation 0 1 0 3.141592653589793
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation -30.0 0.1 0.0
+ rotation 0 1 0 3.1416
+ children [ USE traintrack ]
+}
+Transform {
+ translation -30.0308 0.1 -0.7842
+ rotation 0 1 0 3.2201
+ children [ USE traintrack ]
+}
+Transform {
+ translation -30.123 0.1 -1.5636
+ rotation 0 1 0 3.2987
+ children [ USE traintrack ]
+}
+Transform {
+ translation -30.276 0.1 -2.3333
+ rotation 0 1 0 3.3772
+ children [ USE traintrack ]
+}
+Transform {
+ translation -30.4889 0.1 -3.0887
+ rotation 0 1 0 3.4558
+ children [ USE traintrack ]
+}
+Transform {
+ translation -30.7604 0.1 -3.825
+ rotation 0 1 0 3.5343
+ children [ USE traintrack ]
+}
+Transform {
+ translation -31.0889 0.1 -4.5378
+ rotation 0 1 0 3.6128
+ children [ USE traintrack ]
+}
+Transform {
+ translation -31.4721 0.1 -5.2226
+ rotation 0 1 0 3.6914
+ children [ USE traintrack ]
+}
+Transform {
+ translation -31.908 0.1 -5.8753
+ rotation 0 1 0 3.7699
+ children [ USE traintrack ]
+}
+Transform {
+ translation -32.3936 0.1 -6.4918
+ rotation 0 1 0 3.8485
+ children [ USE traintrack ]
+}
+Transform {
+ translation -32.9261 0.1 -7.0683
+ rotation 0 1 0 3.927
+ children [ USE traintrack ]
+}
+Transform {
+ translation -33.5022 0.1 -7.6012
+ rotation 0 1 0 4.0055
+ children [ USE traintrack ]
+}
+Transform {
+ translation -34.1183 0.1 -8.0874
+ rotation 0 1 0 4.0841
+ children [ USE traintrack ]
+}
+Transform {
+ translation -34.7706 0.1 -8.5237
+ rotation 0 1 0 4.1626
+ children [ USE traintrack ]
+}
+Transform {
+ translation -35.4551 0.1 -8.9075
+ rotation 0 1 0 4.2412
+ children [ USE traintrack ]
+}
+Transform {
+ translation -36.1676 0.1 -9.2365
+ rotation 0 1 0 4.3197
+ children [ USE traintrack ]
+}
+Transform {
+ translation -36.9038 0.1 -9.5086
+ rotation 0 1 0 4.3982
+ children [ USE traintrack ]
+}
+Transform {
+ translation -37.659 0.1 -9.7221
+ rotation 0 1 0 4.4768
+ children [ USE traintrack ]
+}
+Transform {
+ translation -38.4286 0.1 -9.8758
+ rotation 0 1 0 4.5553
+ children [ USE traintrack ]
+}
+Transform {
+ translation -39.2079 0.1 -9.9686
+ rotation 0 1 0 4.6338
+ children [ USE traintrack ]
+}
+Transform {
+ translation -39.992 0.1 -10.0
+ rotation 0 1 0 4.7124
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation -40.0 0.1 10.0
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 10.714285714285714
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 11.428571428571429
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 12.142857142857142
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 12.857142857142858
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 13.571428571428571
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 14.285714285714285
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 15.0
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 15.714285714285715
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 16.42857142857143
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 17.142857142857142
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 17.857142857142858
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 18.57142857142857
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 19.285714285714285
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 20.0
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 20.714285714285715
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 21.42857142857143
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 22.142857142857142
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 22.857142857142858
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 23.57142857142857
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 24.285714285714285
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 25.0
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 25.714285714285715
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 26.42857142857143
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 27.142857142857142
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 27.857142857142858
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 28.571428571428573
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 29.285714285714285
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+Transform {
+ translation -40.0 0.1 30.0
+ rotation 0 1 0 4.71238898038469
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation -40.0 0.1 29.9999
+ rotation 0 1 0 4.7124
+ children [ USE traintrack ]
+}
+Transform {
+ translation -39.9692 0.1 29.2157
+ rotation 0 1 0 4.7909
+ children [ USE traintrack ]
+}
+Transform {
+ translation -39.877 0.1 28.4364
+ rotation 0 1 0 4.8695
+ children [ USE traintrack ]
+}
+Transform {
+ translation -39.724 0.1 27.6666
+ rotation 0 1 0 4.948
+ children [ USE traintrack ]
+}
+Transform {
+ translation -39.5111 0.1 26.9113
+ rotation 0 1 0 5.0265
+ children [ USE traintrack ]
+}
+Transform {
+ translation -39.2396 0.1 26.1749
+ rotation 0 1 0 5.1051
+ children [ USE traintrack ]
+}
+Transform {
+ translation -38.9112 0.1 25.4622
+ rotation 0 1 0 5.1836
+ children [ USE traintrack ]
+}
+Transform {
+ translation -38.5279 0.1 24.7773
+ rotation 0 1 0 5.2622
+ children [ USE traintrack ]
+}
+Transform {
+ translation -38.0921 0.1 24.1247
+ rotation 0 1 0 5.3407
+ children [ USE traintrack ]
+}
+Transform {
+ translation -37.6064 0.1 23.5082
+ rotation 0 1 0 5.4192
+ children [ USE traintrack ]
+}
+Transform {
+ translation -37.0739 0.1 22.9317
+ rotation 0 1 0 5.4978
+ children [ USE traintrack ]
+}
+Transform {
+ translation -36.4979 0.1 22.3987
+ rotation 0 1 0 5.5763
+ children [ USE traintrack ]
+}
+Transform {
+ translation -35.8818 0.1 21.9126
+ rotation 0 1 0 5.6549
+ children [ USE traintrack ]
+}
+Transform {
+ translation -35.2295 0.1 21.4763
+ rotation 0 1 0 5.7334
+ children [ USE traintrack ]
+}
+Transform {
+ translation -34.5449 0.1 21.0924
+ rotation 0 1 0 5.8119
+ children [ USE traintrack ]
+}
+Transform {
+ translation -33.8324 0.1 20.7635
+ rotation 0 1 0 5.8905
+ children [ USE traintrack ]
+}
+Transform {
+ translation -33.0963 0.1 20.4914
+ rotation 0 1 0 5.969
+ children [ USE traintrack ]
+}
+Transform {
+ translation -32.3411 0.1 20.2779
+ rotation 0 1 0 6.0476
+ children [ USE traintrack ]
+}
+Transform {
+ translation -31.5715 0.1 20.1242
+ rotation 0 1 0 6.1261
+ children [ USE traintrack ]
+}
+Transform {
+ translation -30.7922 0.1 20.0314
+ rotation 0 1 0 6.2046
+ children [ USE traintrack ]
+}
+Transform {
+ translation -30.008 0.1 20.0
+ rotation 0 1 0 6.2832
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation -30.0 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -29.285714285714285 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -28.571428571428573 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -27.857142857142858 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -27.142857142857142 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -26.428571428571427 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -25.714285714285715 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -25.0 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -24.285714285714285 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -23.57142857142857 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -22.857142857142858 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -22.142857142857142 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -21.42857142857143 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -20.714285714285715 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -20.0 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -19.285714285714285 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -18.57142857142857 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -17.857142857142858 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -17.142857142857142 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -16.42857142857143 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -15.714285714285714 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -15.0 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -14.285714285714285 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -13.57142857142857 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -12.857142857142858 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -12.142857142857142 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -11.428571428571427 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.714285714285715 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation -10.0 0.1 40.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation -10.0 0.1 40.0
+ rotation 0 1 0 6.2832
+ children [ USE traintrack ]
+}
+Transform {
+ translation -9.2158 0.1 39.9692
+ rotation 0 1 0 6.3617
+ children [ USE traintrack ]
+}
+Transform {
+ translation -8.4365 0.1 39.877
+ rotation 0 1 0 6.4403
+ children [ USE traintrack ]
+}
+Transform {
+ translation -7.6667 0.1 39.724
+ rotation 0 1 0 6.5188
+ children [ USE traintrack ]
+}
+Transform {
+ translation -6.9114 0.1 39.511
+ rotation 0 1 0 6.5973
+ children [ USE traintrack ]
+}
+Transform {
+ translation -6.175 0.1 39.2395
+ rotation 0 1 0 6.6759
+ children [ USE traintrack ]
+}
+Transform {
+ translation -5.4623 0.1 38.9111
+ rotation 0 1 0 6.7544
+ children [ USE traintrack ]
+}
+Transform {
+ translation -4.7774 0.1 38.5278
+ rotation 0 1 0 6.833
+ children [ USE traintrack ]
+}
+Transform {
+ translation -4.1248 0.1 38.092
+ rotation 0 1 0 6.9115
+ children [ USE traintrack ]
+}
+Transform {
+ translation -3.5083 0.1 37.6064
+ rotation 0 1 0 6.99
+ children [ USE traintrack ]
+}
+Transform {
+ translation -2.9318 0.1 37.0739
+ rotation 0 1 0 7.0686
+ children [ USE traintrack ]
+}
+Transform {
+ translation -2.3988 0.1 36.4978
+ rotation 0 1 0 7.1471
+ children [ USE traintrack ]
+}
+Transform {
+ translation -1.9127 0.1 35.8817
+ rotation 0 1 0 7.2257
+ children [ USE traintrack ]
+}
+Transform {
+ translation -1.4763 0.1 35.2294
+ rotation 0 1 0 7.3042
+ children [ USE traintrack ]
+}
+Transform {
+ translation -1.0925 0.1 34.5448
+ rotation 0 1 0 7.3827
+ children [ USE traintrack ]
+}
+Transform {
+ translation -0.7635 0.1 33.8323
+ rotation 0 1 0 7.4613
+ children [ USE traintrack ]
+}
+Transform {
+ translation -0.4914 0.1 33.0962
+ rotation 0 1 0 7.5398
+ children [ USE traintrack ]
+}
+Transform {
+ translation -0.2779 0.1 32.341
+ rotation 0 1 0 7.6184
+ children [ USE traintrack ]
+}
+Transform {
+ translation -0.1242 0.1 31.5714
+ rotation 0 1 0 7.6969
+ children [ USE traintrack ]
+}
+Transform {
+ translation -0.0314 0.1 30.7921
+ rotation 0 1 0 7.7754
+ children [ USE traintrack ]
+}
+Transform {
+ translation -0.0 0.1 30.0079
+ rotation 0 1 0 7.854
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation 0.0 0.1 30.0
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 29.285714285714285
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 28.571428571428573
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 27.857142857142858
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 27.142857142857142
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 26.428571428571427
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 25.714285714285715
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 25.0
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 24.285714285714285
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 23.57142857142857
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 22.857142857142858
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 22.142857142857142
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 21.42857142857143
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 20.714285714285715
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0 0.1 20.0
+ rotation 0 1 0 7.853981633974483
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation 0.0 0.1 20.0
+ rotation 0 1 0 7.854
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.0308 0.1 20.7842
+ rotation 0 1 0 7.7754
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.123 0.1 21.5636
+ rotation 0 1 0 7.6969
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.276 0.1 22.3333
+ rotation 0 1 0 7.6184
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.4889 0.1 23.0887
+ rotation 0 1 0 7.5398
+ children [ USE traintrack ]
+}
+Transform {
+ translation 0.7604 0.1 23.825
+ rotation 0 1 0 7.4613
+ children [ USE traintrack ]
+}
+Transform {
+ translation 1.0889 0.1 24.5378
+ rotation 0 1 0 7.3827
+ children [ USE traintrack ]
+}
+Transform {
+ translation 1.4721 0.1 25.2226
+ rotation 0 1 0 7.3042
+ children [ USE traintrack ]
+}
+Transform {
+ translation 1.908 0.1 25.8753
+ rotation 0 1 0 7.2257
+ children [ USE traintrack ]
+}
+Transform {
+ translation 2.3936 0.1 26.4918
+ rotation 0 1 0 7.1471
+ children [ USE traintrack ]
+}
+Transform {
+ translation 2.9261 0.1 27.0683
+ rotation 0 1 0 7.0686
+ children [ USE traintrack ]
+}
+Transform {
+ translation 3.5022 0.1 27.6012
+ rotation 0 1 0 6.99
+ children [ USE traintrack ]
+}
+Transform {
+ translation 4.1183 0.1 28.0874
+ rotation 0 1 0 6.9115
+ children [ USE traintrack ]
+}
+Transform {
+ translation 4.7706 0.1 28.5237
+ rotation 0 1 0 6.833
+ children [ USE traintrack ]
+}
+Transform {
+ translation 5.4551 0.1 28.9075
+ rotation 0 1 0 6.7544
+ children [ USE traintrack ]
+}
+Transform {
+ translation 6.1676 0.1 29.2365
+ rotation 0 1 0 6.6759
+ children [ USE traintrack ]
+}
+Transform {
+ translation 6.9038 0.1 29.5086
+ rotation 0 1 0 6.5973
+ children [ USE traintrack ]
+}
+Transform {
+ translation 7.659 0.1 29.7221
+ rotation 0 1 0 6.5188
+ children [ USE traintrack ]
+}
+Transform {
+ translation 8.4286 0.1 29.8758
+ rotation 0 1 0 6.4403
+ children [ USE traintrack ]
+}
+Transform {
+ translation 9.2079 0.1 29.9686
+ rotation 0 1 0 6.3617
+ children [ USE traintrack ]
+}
+Transform {
+ translation 9.992 0.1 30.0
+ rotation 0 1 0 6.2832
+ children [ USE traintrack ]
+}
+
+# Train Track
+Transform {
+ translation 10.0 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 10.714285714285714 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 11.428571428571429 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 12.142857142857142 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 12.857142857142858 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 13.571428571428571 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 14.285714285714285 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 15.0 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 15.714285714285715 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 16.42857142857143 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 17.142857142857142 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 17.857142857142858 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 18.57142857142857 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 19.285714285714285 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.0 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 20.714285714285715 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 21.42857142857143 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 22.142857142857142 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 22.857142857142858 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 23.57142857142857 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 24.285714285714285 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 25.0 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 25.714285714285715 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 26.42857142857143 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 27.142857142857142 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 27.857142857142858 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 28.571428571428573 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 29.285714285714285 0.1 10.0
+ rotation 0 1 0 6.283185307179586
+ children [ USE traintrack ]
+}
+Transform {
+ translation 30.0 0.1 10.0
+ rotation 0 1 0 6.283185307179586
  children [ USE traintrack ]
 }
 
 # Viewpoints
 Viewpoint {
- position 0 40 40
+ position -20 40 40
  orientation 1 0 0 -0.785
  description "nr_0"
 }
 Viewpoint {
- position 10 40 40
+ position -10 40 40
  orientation 1 0 0 -0.785
  description "nr_1"
 }
 Viewpoint {
- position 20 40 40
+ position 0 40 40
  orientation 1 0 0 -0.785
  description "nr_2"
 }
 Viewpoint {
- position 30 40 40
+ position 10 40 40
  orientation 1 0 0 -0.785
  description "nr_3"
 }
 Viewpoint {
- position 40 40 40
+ position 20 40 40
  orientation 1 0 0 -0.785
  description "nr_4"
 }
 Viewpoint {
- position 50 40 40
+ position 30 40 40
  orientation 1 0 0 -0.785
  description "nr_5"
 }
 Viewpoint {
- position 60 40 40
+ position 40 40 40
  orientation 1 0 0 -0.785
  description "nr_6"
 }
 Viewpoint {
- position 70 40 40
+ position 50 40 40
  orientation 1 0 0 -0.785
  description "nr_7"
 }
 Viewpoint {
- position 80 40 40
+ position 60 40 40
  orientation 1 0 0 -0.785
  description "nr_8"
 }
 Viewpoint {
- position 90 40 40
+ position 70 40 40
  orientation 1 0 0 -0.785
  description "nr_9"
 }
 Viewpoint {
- position 100 40 40
+ position 80 40 40
  orientation 1 0 0 -0.785
  description "nr_10"
+}
+Viewpoint {
+ position 90 40 40
+ orientation 1 0 0 -0.785
+ description "nr_11"
+}
+Viewpoint {
+ position 100 40 40
+ orientation 1 0 0 -0.785
+ description "nr_12"
 }
