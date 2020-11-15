@@ -2408,6 +2408,7 @@ children [
 Shape {
 appearance Appearance { material Material { diffuseColor 1 0.5 0.25 } }
 geometry Box { size 0.3 0.2 2.5  } } ] }
+
 Transform {
 translation 0 0.3 -1
 children [
@@ -2420,6 +2421,7 @@ children [
 Shape {
 appearance Appearance { material Material { diffuseColor 0.25 0.25 0.25 } }
 geometry Box { size 200 0.2 0.1  } } ] }
+
 Viewpoint {
 position -100.000000 40 40
 orientation 1 0 0 -0.785
