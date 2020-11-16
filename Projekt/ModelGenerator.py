@@ -133,22 +133,19 @@ def generatePositionList(x1, y1, z1, r1, x2, y2, z2, r2):
     xC, zC = find_center(x1, z1, x2, z2, angle, r1, r2)
 
     # get start angle
-    if x2-x1 == 0:
-      startAngle = round(math.asin((z1 - zC)/radius), 4)
-      dAngle = round((math.asin((z2 - zC)/radius) - startAngle)/numOfElem, 4)
-    else:
-      startAngle = round(math.acos((x1 - xC)/radius), 4)
-      dAngle = round((math.acos((x2 - xC)/radius) - startAngle)/numOfElem, 4)
+    startAngle = round(math.acos((x1 - xC)/radius), 4)
+    dAngle = round((math.acos((x2 - xC)/radius) - startAngle)/numOfElem, 4)
 
     # print('-- center ({},{}), radius {}, angle {}, startAngle {}, dAngle {}'.format(xC, zC, radius, angle, startAngle, dAngle))
     # Generate positions
     for i in range(numOfElem+1):
-      newX = round(xC+(radius*math.cos(startAngle+(dAngle*i))), 4)
-      newY = round(y1+(dY*i), 4)
-      if angle < 0:
-        newZ = round(zC+(radius*math.sin(-startAngle-(dAngle*i))), 4)
+      if round(r1%(2*math.pi), 4) == 0 or round(r2%(2*math.pi), 4) == 0:
+        newX = round(xC+(radius*math.cos(startAngle+(dAngle*i))), 4)
+        newZ = round(zC+(radius*math.sin(startAngle+(dAngle*i))), 4)
       else:
-        newZ = round(zC+(radius*math.sin(startAngle-(dAngle*i))), 4)
+        newX = round(xC+(radius*math.cos(-startAngle-(dAngle*i))), 4)
+        newZ = round(zC+(radius*math.sin(-startAngle-(dAngle*i))), 4)
+      newY = round(y1+(dY*i), 4)
       newR = round(r1+(dR*i), 4)
 
       posList.append((newX, newY, newZ, newR))
