@@ -75,8 +75,14 @@ def find_center(x1, y1, x2, y2, angle, r1, r2):
   # d_perp = d_chord/(2*math.tan(angle))
 
   # get center on the right side
-  div = -2 if round(math.sin(r1), 1) >= 0  else 2
-  print('div {}, sin(r1) {}, cos(r2) {}, sin(r1) {}, cos(r2) {}'.format(div, round(math.sin(r1), 1), round(math.cos(r1), 1), round(math.sin(r2), 1), round(math.cos(r2), 1)))
+  # reduce r2 to value between 0 and 2pi
+  # tmpR
+  # while 
+  # div = -2 if round(math.sin(r1), 1) >= 0  else 2
+  div = -2 if (round(r1%(2*math.pi),4)==0 or round(r2%(2*math.pi),4)==round(math.pi,4)) else 2
+  if r2 - r1 < 0:
+    div = -div
+  
   d_perp = round(d_chord/(2*math.tan(angle/div)), 4)
 
   # Equation of line perpendicular to the chord: y-ym = new_slope(x-xm)
@@ -134,7 +140,7 @@ def generatePositionList(x1, y1, z1, r1, x2, y2, z2, r2):
       startAngle = round(math.acos((x1 - xC)/radius), 4)
       dAngle = round((math.acos((x2 - xC)/radius) - startAngle)/numOfElem, 4)
 
-    print('center ({},{}), radius {}, angle {}, startAngle {}, dAngle {}'.format(xC, zC, radius, angle, startAngle, dAngle))
+    # print('-- center ({},{}), radius {}, angle {}, startAngle {}, dAngle {}'.format(xC, zC, radius, angle, startAngle, dAngle))
     # Generate positions
     for i in range(numOfElem+1):
       newX = round(xC+(radius*math.cos(startAngle+(dAngle*i))), 4)
@@ -205,8 +211,14 @@ def generateVRMLString():
   tmpStr, trainTrackName = defineTrainTrackGroup('traintrack')
   strVRML += tmpStr
 
+  # Declare rounded pi
+  pi = round(math.pi, 4)
   # Path to generate (x, y, z, r)
-  pointList = [(30, 0.1, 10, 0), (40, 0.1, 0, math.pi/2), (30, 0.1, -10, math.pi), (20, 0.1, -20, math.pi/2), (20, 0.1, -30, math.pi/2), (-10, 0.1, -30, 3/2*math.pi), (-10, 0.1, -10, 3/2*math.pi), (-20, 0.1, 0, math.pi), (-30, 0.1, 0, math.pi), (-40, 0.1, 10, 3/2*math.pi), (-40, 0.1, 30, 3/2*math.pi), (-30, 0.1, 40, 2*math.pi), (-10, 0.1, 40, 2*math.pi), (0, 0.1, 30, 5/2*math.pi), (0, 0.1, 20, 5/2*math.pi), (10, 0.1, 10, 2*math.pi), (30, 0.1, 10, 2*math.pi)]
+  pointList = [(30, 0.1, 10, 0), (40, 0.1, 0, pi/2), (30, 0.1, -10, pi), (20, 0.1, -20, pi/2), \
+    (20, 0.1, -30, pi/2), (10, 0.1, -40, pi), (0, 0.1, -40, pi), (-10, 0.1, -30, 3/2*pi), \
+    (-10, 0.1, -10, 3/2*pi), (-20, 0.1, 0, pi), (-30, 0.1, 0, pi), (-40, 0.1, 10, 3/2*pi), \
+    (-40, 0.1, 30, 3/2*pi), (-30, 0.1, 40, 2*pi), (-10, 0.1, 40, 2*pi), (0, 0.1, 30, 5/2*pi), \
+    (0, 0.1, 20, 5/2*pi), (10, 0.1, 10, 2*pi), (30, 0.1, 10, 2*pi)]
   strVRML += createRailWaysFromPoints(pointList, trainTrackName)
 
   # Add Viewpoints
