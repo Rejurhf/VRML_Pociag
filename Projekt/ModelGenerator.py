@@ -72,13 +72,7 @@ def find_center(x1, y1, x2, y2, angle, r1, r2):
   d_chord = math.sqrt((x1-x2)**2 + (y1-y2)**2)
 
   # Distance between xm, ym and center of the circle (xc, yc)
-  # d_perp = d_chord/(2*math.tan(angle))
-
   # get center on the right side
-  # reduce r2 to value between 0 and 2pi
-  # tmpR
-  # while 
-  # div = -2 if round(math.sin(r1), 1) >= 0  else 2
   div = -2 if (round(r1%(2*math.pi),4)==0 or round(r2%(2*math.pi),4)==round(math.pi,4)) else 2
   if r2 - r1 < 0:
     div = -div
@@ -119,7 +113,6 @@ def generatePositionList(x1, y1, z1, r1, x2, y2, z2, r2):
   # radius/distance from center to points
   angle = round(r2 - r1, 4)
   radius = round(dist/(2*math.sin(angle/2)), 4) if 2*math.sin(angle/2) != 0 else 0
-  
   
   if r1 == r2:
     # Go straight
@@ -201,7 +194,7 @@ def generateVRMLString():
   strVRML = '#VRML V2.0 utf8\n'
 
   # Add Green Plane
-  strVRML += getPlane(100, 0.05, 100)
+  strVRML += getPlane(200, 0.05, 200)
 
   # Train Tracks
   # Define Train Track object
@@ -211,11 +204,19 @@ def generateVRMLString():
   # Declare rounded pi
   pi = round(math.pi, 4)
   # Path to generate (x, y, z, r)
-  pointList = [(30, 0.1, 10, 0), (40, 0.1, 0, pi/2), (30, 0.1, -10, pi), (20, 0.1, -20, pi/2), \
-    (20, 0.1, -30, pi/2), (10, 0.1, -40, pi), (0, 0.1, -40, pi), (-10, 0.1, -30, 3/2*pi), \
-    (-10, 0.1, -10, 3/2*pi), (-20, 0.1, 0, pi), (-30, 0.1, 0, pi), (-40, 0.1, 10, 3/2*pi), \
-    (-40, 0.1, 30, 3/2*pi), (-30, 0.1, 40, 2*pi), (-10, 0.1, 40, 2*pi), (0, 0.1, 30, 5/2*pi), \
-    (0, 0.1, 20, 5/2*pi), (10, 0.1, 10, 2*pi), (30, 0.1, 10, 2*pi)]
+  # pointList = [(30, 0.1, 10, 0), (40, 0.1, 0, pi/2), (30, 0.1, -10, pi), (20, 0.1, -20, pi/2), \
+  #   (20, 0.1, -30, pi/2), (10, 0.1, -40, pi), (0, 0.1, -40, pi), (-10, 0.1, -30, 3/2*pi), \
+  #   (-10, 0.1, -10, 3/2*pi), (-20, 0.1, 0, pi), (-30, 0.1, 0, pi), (-40, 0.1, 10, 3/2*pi), \
+  #   (-40, 0.1, 30, 3/2*pi), (-30, 0.1, 40, 2*pi), (-10, 0.1, 40, 2*pi), (0, 0.1, 30, 5/2*pi), \
+  #   (0, 0.1, 20, 5/2*pi), (10, 0.1, 10, 2*pi), (30, 0.1, 10, 2*pi)]
+  
+  pointList = [(-30, 0.1, 80, pi), (-80, 0.1, 30, pi/2), (-80, 0.1, -20, pi/2), (-60, 0.1, -40, 0), \
+    (-40, 0.1, -20, -pi/2), (-40, 0.1, 50, -pi/2), (-20, 0.1, 70, 0), (60, 0.1, 70, 0), \
+    (70, 0.1, 60, pi/2), (60, 0.1, 50, pi), (10, 0.1, 50, pi), (0, 0.1, 40, pi/2), \
+    (10, 0.1, 30, 0), (70, 0.1, 30, 0), (80, 0.1, 20, pi/2), (70, 0.1, 10, pi), \
+    (40, 0.1, 10, pi), (-20, 0.1, -50, pi/2), (-20, 0.1, -60, pi/2), (10, 0.1, -90, 0), \
+    (60, 0.1, -40, -pi/2), (80, 0.1, -20, 0), (90, 0.1, -10, -pi/2), (90, 0.1, 60, -pi/2), \
+    (70, 0.1, 80, -pi), (-30, 0.1, 80, -pi)]
   strVRML += createRailWaysFromPoints(pointList, trainTrackName)
 
   # Add Viewpoints
