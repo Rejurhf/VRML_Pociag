@@ -185,6 +185,23 @@ def createRailWaysFromPoints(pointList, trainTrackName):
   return outStr
 
 
+def getViewpoint(x, y, z, rX, rY, rZ, rVal, desc):
+  print('Get Viewpoint')
+  outStr = '\n# Viewpoints\n'
+  outStr += ('Transform {\n'
+    ' rotation ' + '{} {} {} {}'.format(rX, rY, rZ, rVal) + '\n'
+    ' children [\n'
+    '   Viewpoint {\n'
+    '     position ' + '{} {} {}'.format(x, y, z) + '\n'
+    '     orientation 1 0 0 -0.785\n'
+    '     description \"' + desc + '\"\n'
+    '   }\n'
+    ' ]\n'
+    '}\n')
+
+  return outStr
+
+
 # Generator main function
 def generateVRMLString():
   # Original generator - to use it comment all other lines
@@ -220,7 +237,10 @@ def generateVRMLString():
   strVRML += createRailWaysFromPoints(pointList, trainTrackName)
 
   # Add Viewpoints
-  strVRML += originalGenerator.getViewpoints(-20, 0)
+  strVRML += getViewpoint(0, 90, 130, 0, 0, 0, 0, 'View_1')
+  strVRML += getViewpoint(0, 90, 130, 0, 1, 0, pi/2, 'View_2')
+  strVRML += getViewpoint(0, 90, 130, 0, 1, 0, pi, 'View_3')
+  strVRML += getViewpoint(0, 90, 130, 0, 1, 0, 3*pi/2, 'View_4')
   
   return strVRML
 
