@@ -191,8 +191,7 @@ def createRailWaysFromPoints(pointList, trainTrackName):
 def createTrain(posList):
   print('Get Train')
   outStr = '\n# Get Train\n'
-  print(3*round(len(posList)/100) if len(posList)/100 > 1 else 3)
-  speed = 45
+  speed = 2*round(len(posList)/100) if len(posList)/100 > 1 else 2
 
   keyStr = ''
   transStr = ''
