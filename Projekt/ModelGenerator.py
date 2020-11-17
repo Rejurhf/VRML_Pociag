@@ -117,9 +117,9 @@ def generatePositionList(x1, y1, z1, r1, x2, y2, z2, r2):
   if r1 == r2:
     # Go straight
     tmpNumOFElem = round(numOfElem*0.7)
-    dX, dZ = (x2-x1)/tmpNumOFElem, (z2-z1)/tmpNumOFElem
+    dX, dZ = round((x2-x1)/tmpNumOFElem, 4), round((z2-z1)/tmpNumOFElem, 4)
     for i in range(tmpNumOFElem+1):
-      posList.append((x1+(dX*i), y1, z1+(dZ*i), r2))
+      posList.append((round(x1+(dX*i), 4), y1, round(z1+(dZ*i), 4), r2))
   else:
     # Go in circle
     # Get center of circle
@@ -147,7 +147,7 @@ def generatePositionList(x1, y1, z1, r1, x2, y2, z2, r2):
 
 
 def getTrainTracks(x1, y1, z1, r1, x2, y2, z2, r2, trainTrackName=''):
-  print('Get Train Track')
+  print('Get Train Track ({},{},{}) -> ({},{},{})'.format(x1, y1, z1, x2, y2, z2))
   outStr = '\n# Train Track\n'
 
   # Generate list of Train Tracks positions
@@ -172,16 +172,80 @@ def getTrainTracks(x1, y1, z1, r1, x2, y2, z2, r2, trainTrackName=''):
         ' ]\n' 
         '}\n')
 
-  return outStr
+  return outStr, posList
 
 
 def createRailWaysFromPoints(pointList, trainTrackName):
   outStr = ''
+  posList = []
   for i in range(len(pointList)-1):
-    print(i, pointList[i], pointList[i+1])
+    # print(i, pointList[i], pointList[i+1])
     # Add Train Track (x1, y1, z1, r1, x2, y2, z2, r2, trainTrackName='') r1/r2 - rotation in radian (Y axis)
-    outStr += getTrainTracks(pointList[i][0], pointList[i][1], pointList[i][2], pointList[i][3], pointList[i+1][0], pointList[i+1][1], pointList[i+1][2], pointList[i+1][3], trainTrackName)
+    tmpStr, tmpPosList = getTrainTracks(pointList[i][0], pointList[i][1], pointList[i][2], pointList[i][3], pointList[i+1][0], pointList[i+1][1], pointList[i+1][2], pointList[i+1][3], trainTrackName)
+    outStr += tmpStr
+    posList += tmpPosList
   
+  return outStr, posList
+
+
+def createTrain(posList):
+  print('Get Train')
+  outStr = '\n# Get Train\n'
+  print(3*round(len(posList)/100) if len(posList)/100 > 1 else 3)
+  speed = 45
+
+  keyStr = ''
+  transStr = ''
+  rotationStr = ''
+  # Define trane positions and frames
+  for i in range(len(posList)):
+    keyStr += str(round(i/(len(posList)-1), 4))
+    transStr += '{} {} {}'.format(posList[i][0], posList[i][1], posList[i][2])
+    rotationStr += '0 1 0 {}'.format(posList[i][3])
+
+    if i < len(posList)-1:
+      keyStr += ', '
+      transStr += ', '
+      rotationStr += ', '
+
+  outStr += ('DEF movingTrain Transform{\n'
+    '  children[\n'
+    '    Transform {\n'
+    '      translation 0 0.9 0\n'
+    '      children [\n'
+    '        DEF Z Transform {\n'
+    '          children [\n'
+    '            Inline { url "wagon1.wrl"}\n'
+    '          ]\n'
+    '        }\n'
+    '      ]\n'
+    '    }\n'
+    '    DEF X TimeSensor {loop TRUE cycleInterval ' + str(speed) + '}\n'
+    '    DEF Y PositionInterpolator {\n'
+    '      key [' + keyStr + ']\n'
+    '      keyValue [' + transStr + ']\n'
+    '    }\n'
+    '    DEF R OrientationInterpolator { \n'
+    '      key [' + keyStr + ']\n'
+    '      keyValue [' + rotationStr + ']\n'
+    '    }\n'
+    '  ]\n'
+    '}\n'
+    'ROUTE X.fraction_changed TO Y.set_fraction\n'
+    'ROUTE X.fraction_changed TO R.set_fraction\n'
+    'ROUTE Y.value_changed TO Z.set_translation\n'
+    'ROUTE R.value_changed TO Z.set_rotation\n')
+
+  return outStr
+
+
+def createTrainAndRailways(pointList, trainTrackName):
+  # Create Railway
+  outStr, posList = createRailWaysFromPoints(pointList, trainTrackName)
+
+  # Create train using railway positions and rotations
+  outStr += createTrain(posList)
+
   return outStr
 
 
@@ -220,6 +284,7 @@ def generateVRMLString():
 
   # Declare rounded pi
   pi = round(math.pi, 4)
+
   # Path to generate (x, y, z, r)
   # pointList = [(30, 0.1, 10, 0), (40, 0.1, 0, pi/2), (30, 0.1, -10, pi), (20, 0.1, -20, pi/2), \
   #   (20, 0.1, -30, pi/2), (10, 0.1, -40, pi), (0, 0.1, -40, pi), (-10, 0.1, -30, 3/2*pi), \
@@ -234,7 +299,9 @@ def generateVRMLString():
     (40, 0.1, 10, pi), (-20, 0.1, -50, pi/2), (-20, 0.1, -60, pi/2), (10, 0.1, -90, 0), \
     (60, 0.1, -40, -pi/2), (80, 0.1, -20, 0), (90, 0.1, -10, -pi/2), (90, 0.1, 60, -pi/2), \
     (70, 0.1, 80, -pi), (-30, 0.1, 80, -pi)]
-  strVRML += createRailWaysFromPoints(pointList, trainTrackName)
+  
+  # Get Railway and train
+  strVRML += createTrainAndRailways(pointList, trainTrackName)
 
   # Add Viewpoints
   strVRML += getViewpoint(0, 90, 130, 0, 0, 0, 0, 'View_1')
