@@ -188,11 +188,11 @@ def createRailWaysFromPoints(pointList, trainTrackName):
   return outStr, posList
 
 
-def createTrain(posList):
-  print('Get Train')
-  outStr = '\n# Get Train\n'
+def createTrain(posList, num = 0):
+  print('Get Train', num)
+  outStr = '\n# Get Train {}\n'.format(num)
   speed = 2*round(len(posList)/100) if len(posList)/100 > 1 else 2
-
+  
   keyStr = ''
   transStr = ''
   rotationStr = ''
@@ -238,12 +238,15 @@ def createTrain(posList):
   return outStr
 
 
-def createTrainAndRailways(pointList, trainTrackName):
+def createTrainAndRailways(pointList, trainTrackName, wagonNum = 0):
   # Create Railway
   outStr, posList = createRailWaysFromPoints(pointList, trainTrackName)
 
   # Create train using railway positions and rotations
   outStr += createTrain(posList)
+  # Create wagon
+  for i in range(1, wagonNum):
+    outStr += createTrain(posList[len(posList)-(13*i):] + posList[:len(posList)-(13*i)], i)
 
   return outStr
 
@@ -299,8 +302,8 @@ def generateVRMLString():
     (60, 0.1, -40, -pi/2), (80, 0.1, -20, 0), (90, 0.1, -10, -pi/2), (90, 0.1, 60, -pi/2), \
     (70, 0.1, 80, -pi), (-30, 0.1, 80, -pi)]
   
-  # Get Railway and train
-  strVRML += createTrainAndRailways(pointList, trainTrackName)
+  # Get Railway and train (position list, track name, number of wagons)
+  strVRML += createTrainAndRailways(pointList, trainTrackName, 10)
 
   # Add Viewpoints
   strVRML += getViewpoint(0, 90, 130, 0, 0, 0, 0, 'View_1')
